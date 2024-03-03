@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.amount_container {
+    @apply text-lg font-bold text-verydark_desaturatedblue;
+}
+
+.content_type_container {
+    @apply text-[12px] tracking-wider text-dark_grayishblue;
+}
+
+@media only screen and (max-width: 1024px) {
+    .top-pattern {
+        height: 75%;
+        right: 50%;
+        bottom: 55%;
+    }
+
+    .bottom-pattern {
+        height: 75%;
+        left: 50%;
+        top: 55%;
+    }
+}
+
+@media only screen and (max-width: 425px) {
+    .top-pattern {
+        height: 60%;
+        right: 50%;
+        bottom: 60%;
+    }
+
+    .bottom-pattern {
+        height: 60%;
+        left: 50%;
+        top: 60%;
+    }
+}
